@@ -13,7 +13,7 @@ class Palindrome
 			rev=rev+str.charAt(i);
 			
 		}
-		if(rev==str)
+		if(rev.equals(str))
 			System.out.println("It is a palindrome");
 		else
 			System.out.print("It is not palindrome");
